@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div id="scoreBoard"><span>Score: </span> <span id="scoreEle">0</span></div>
+    <canvas id="canvas"></canvas>
+    <div class="modal">
+        <div class="endGameUI">
+            <h1 id="bigScore">0</h1>
+            <p>points</p>
+            <div >
+                <input id="btnStartGame" type="button" value="Start Game" onclick="startGame()">
+                <!-- <button id="btnStartGame">Start Game</button> -->
+            </div>
+        </div>
+    </div>
+    <script 
+        src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js" 
+        integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
+    <script src="/main.js"></script>
+</body>
+</html>
